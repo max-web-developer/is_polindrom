@@ -16,9 +16,7 @@
 
 word = str(input('Enter word: '))
 a = word[::-1] # Проверяем на полидром через последний индекс
-list=[]
-list.append(word.upper())
-if word == a:
+if word.upper() == a:
   print("Polindrom")
 else:
   print("Not Polindrom")
